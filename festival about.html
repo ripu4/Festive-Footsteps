@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" type="text/css" href="festive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="festive images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="festival home.html">HOME</a></li>
+                <li><a href="festival about.html">ABOUT US</a></li>
+                <li><a href="festive course.html">Festivals</a></li>
+                <li><a href="festive contact.html">Contact US</a></li>
+                <li><a href="festive faq.html">FAQ</a></li>
+             </ul>
+            <div class="search-bar">
+    <form action="search-results.html" method="get">
+        <input type="text" placeholder="Search..." name="q">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<h1>About Us</h1>
+</section>
+
+<!----- about us content ------>
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Discover Who We Are - Your Festival Guides</h1>
+            <p>Welcome to Festive Footsteps! I am Ripudaman, and this website was inspired by my cousin Vikas Tyagi, who faced challenges celebrating Indian festivals while living abroad.<br><br>Festive Footsteps aims to bridge the gap between tradition and distance, providing comprehensive guides on the cultural significance, rituals, and best practices for celebrating Indian festivals.<br> <br> Here, you’ll find step-by-step instructions, traditional recipes, and creative ideas to help you reconnect with your roots and enjoy these vibrant celebrations, no matter where you are.<br><br>Join me on this journey to embrace our heritage, create lasting memories, and celebrate the spirit of togetherness!</p>
+            <a href="festive contact.html" class="hero-btn red-btn">Visit Us to Know More</a>
+        </div>
+        <div class="about-col">
+            <img src="festive images/about.jpg">
+        </div>
+        
+    </div>
+    
+</section>
+
+
+ 
+<!----- Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Festive Footsteps, created by Ripudaman Tyagi for Vikas Tyagi, a student living abroad <br>offers simple, step-by-step guides to help those away from India celebrate and stay connected with Indian festivals.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Ripudaman Tyagi</p>
+</section>
+
+
+<!-------JavaScript for Toggle Menu------->
+<script type="text/javascript">
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
+

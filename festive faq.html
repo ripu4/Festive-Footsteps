@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" type="text/css" href="festive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="festive images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="festival home.html">HOME</a></li>
+                <li><a href="festival about.html">ABOUT US</a></li>
+                <li><a href="festive course.html">Festivals</a></li>
+                <li><a href="festive contact.html">Contact US</a></li>
+                <li><a href="festive faq.html">FAQ</a></li>
+            </ul>
+            <div class="search-bar">
+    <form action="search-results.html" method="get">
+        <input type="text" placeholder="Search..." name="q">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<h1>FAQs</h1>
+</section>
+
+<!----- about us content ------>
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Got Questions? We’ve Got Festive Solutions!</h1><br><br>
+            <h4>1. What kind of information can I find on this website?</h4>You can find detailed guides on various Indian festivals, including step-by-step instructions, traditional recipes, decoration ideas, and tips for celebrating each occasion.<br> <br><h4>2. How can I celebrate Indian festivals while living abroad?</h4>Festive Footsteps provides practical tips and ideas to help you celebrate Indian festivals at home, including alternative rituals, recipes, and ways to connect with friends and family.<br><br><h4>3. Are the celebration ideas suitable for all ages?</h4>Yes! The celebration ideas and activities provided on our website are designed to be inclusive and enjoyable for individuals and families of all ages.<h4><br>4. Do you offer resources in languages other than English?</h4>Currently, our primary content is in English, but we aim to provide resources in other languages in the future to reach a wider audience.<br> <br><h4><h4>5. Can I contribute to Festive Footsteps?</h4>Absolutely! We welcome contributions, suggestions, and personal stories related to celebrating Indian festivals. Feel free to reach out to us through our contact page.<br> <br>
+            <a href="festive contact.html" class="hero-btn red-btn">Visit Us to Know More</a>
+        </div>
+        <div class="about-col">
+            <img src="festive images/dus.jpg">
+        </div>
+        
+    </div>
+    
+</section>
+
+
+ 
+<!----- Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Festive Footsteps, created by Ripudaman Tyagi for Vikas Tyagi, a student living abroad <br>offers simple, step-by-step guides to help those away from India celebrate and stay connected with Indian festivals.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Ripudaman Tyagi</p>
+</section>
+
+
+<!-------JavaScript for Toggle Menu------->
+<script type="text/javascript">
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
+

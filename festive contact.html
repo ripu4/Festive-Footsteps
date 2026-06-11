@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" type="text/css" href="festive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="festive images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="festival home.html">HOME</a></li>
+                <li><a href="festival about.html">ABOUT US</a></li>
+                <li><a href="festive course.html">FESTIVALS</a></li>
+                <li><a href="festive contact.html">CONTACT US</a></li>
+                <li><a href="festive faq.html">FAQ</a></li>
+            </ul>
+            <div class="search-bar">
+    <form action="search-results.html" method="get">
+        <input type="text" placeholder="Search..." name="q">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<h1>Contact Us</h1>
+</section>
+
+<!----- contact us ------>
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3512.5319450252173!2d77.01020897569086!3d28.31249939854139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d24b361de6ed5%3A0xf2c367ca3e0ab308!2sPathways%20World%20School!5e0!3m2!1sen!2sin!4v1720788767988!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Pathways World School, Aravali</h5>
+                    <p>Gurugaon, Haryana, IN</p>
+                </span>
+            </div>
+               <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+91 875 503 4347</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+               <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>ripudaman.tyagi04@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="e-mail" placeholder="Enter e-mail address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+
+
+        </div>
+    </div>
+    
+
+</section>
+
+
+
+ 
+<!----- Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Festive Footsteps, created by Ripudaman Tyagi for Vikas Tyagi, a student living abroad <br>offers simple, step-by-step guides to help those away from India celebrate and stay connected with Indian festivals.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Ripudaman Tyagi </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script type="text/javascript">
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
+
+
+

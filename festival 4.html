@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" type="text/css" href="festive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="festival home.html">HOME</a></li>
+                <li><a href="festival about.html">ABOUT US</a></li>
+                <li><a href="festive course.html">FESTIVALS</a></li>
+                <li><a href="festive contact.html">CONTACT US</a></li>
+                <li><a href="festive faq.html">FAQ</a></li>
+             </ul>
+            <div class="search-bar">
+    <form action="search-results.html" method="get">
+        <input type="text" placeholder="Search..." name="q">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<h1>Raksha Bandhan</h1>
+</section>
+
+
+<!----- blog page content ------>
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="festive images/fest rb.jpg">
+            <h2>Raksha Bandhan: Tying Threads of Love and Protection!</h2>
+            <h4>Raksha Bandhan, often abbreviated as Rakhi, is a significant Hindu festival that celebrates the bond between brothers and sisters. The festival is marked by the tying of a sacred thread, or 'rakhi,' by sisters on their brothers' wrists, symbolizing love, protection, and the promise to care for one another.</h4>
+            <br>
+            <p><h3>Preparations</h3>
+Ensure that the area where the celebration will take place is clean and decorated.<br><br>Sisters should buy or prepare beautiful rakhis and arrange a 'puja thali' (a plate with essential items for the rituals), which typically includes: Rakhis, Sweets (like laddoos, barfis, or chocolates), A diya (lamp), Rice and turmeric powder, A small bowl of water<br><br></p>
+            <br>
+            <p><h3>Celebrating Rakhi</h3>
+                Begin by lighting the diya and offering prayers to seek blessings for the wellbeing and prosperity of the brother.<br><br>The sister applies a tilak (a mixture of rice and turmeric) on her brother’s forehead, symbolizing her love and affection.<br><br>The sister then ties the rakhi on her brother’s wrist while reciting prayers for his happiness and safety. She may also share a heartfelt message or express her wishes for him.<br><br>Brothers typically give gifts to their sisters as a token of love and appreciation. This can range from money to thoughtful presents, depending on the relationship.<br><br>TAfter the rituals, both siblings share sweets, symbolizing the sweetness of their bond. This is often accompanied by festive meals and family gatherings.</p><br>
+
+
+                <br><p><h3>Best Ways to Celebrate Rakhi</h3>Organize a family get-together to celebrate the day with loved ones. This fosters a sense of community and strengthens family bonds.<br><br> For siblings living apart, consider hosting a virtual celebration via video calls. Exchange rakhi and gifts by mail, ensuring that the spirit of the festival remains intact.<br><br>Choose thoughtful and personalized gifts that resonate with your sibling’s interests. Consider items like custom jewelry, photo frames, or heartfelt letters.<br><br>Spend the day cooking traditional dishes together. Preparing festive meals can enhance the joy of the occasion and create lasting memories.<br><br>
+</p>
+
+
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter E-mail">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+
+                
+            </div>
+
+        </div>
+        <div class="blog-right">
+    <h3>Festival Calendar 2025</h3>
+    <div>
+        <span>Holi</span>
+        <span>14 Mar</span>
+    </div>
+    <div>
+        <span>Baisakhi</span>
+        <span>14 Apr</span>
+    </div>
+    <div>
+        <span>Bihu</span>
+        <span>14 Apr – 20 Apr</span>
+    </div>
+    <div>
+        <span>Raksha Bandhan</span>
+        <span>9 Aug</span>
+    </div>
+    <div>
+        <span>Janmashtami</span>
+        <span>15 Aug</span>
+    </div>
+    <div>
+        <span>Ganesh Chaturthi</span>
+        <span>26 Aug – 27 Aug</span>
+    </div>
+    <div>
+        <span>Onam</span>
+        <span>26 Aug – 4 Sept</span>
+    </div>
+    <div>
+        <span>Dussehra</span>
+        <span>2 Oct</span>
+    </div>
+    <div>
+        <span>Diwali</span>
+        <span>18 Oct – 23 Oct</span>
+    </div>
+</div>
+
+</section>
+
+<!----- Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Festive Footsteps, created by Ripudaman Tyagi for Vikas Tyagi, a student living abroad <br>offers simple, step-by-step guides to help those away from India celebrate and stay connected with Indian festivals.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script type="text/javascript">
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>

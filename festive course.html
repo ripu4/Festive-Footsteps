@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festive Footsteps</title>
+    <link rel="stylesheet" type="text/css" href="festive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="festival home.html"><img src="festive images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Festival home.html">HOME</a></li>
+                <li><a href="festival about.html">ABOUT US</a></li>
+                <li><a href="festive course.html">FESTIVALS</a></li>
+                <li><a href="festive contact.html">CONTACT US</a></li>
+                <li><a href="festive faq.html">FAQ</a></li>
+         </ul>
+            <div class="search-bar">
+    <form action="search-results.html" method="get">
+        <input type="text" placeholder="Search..." name="q">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<h1>Festivals We Offer!</h1>
+</section>
+
+<!----- Course ------>
+<section class="campus">
+    <h1>Divine Festivals</h1>
+    <p>Where Devotion Meets Celebration.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <a href="festival 1.html">
+                <img src="festive images/holi.png" alt="Holi">
+                <div class="layer">
+                    <h3>Holi</h3>
+                </div>
+            </a>
+        </div>
+        <div class="campus-col">
+            <a href="festival 2.html">
+                <img src="festive images/diwali.png" alt="Diwali">
+                <div class="layer">
+                    <h3>Diwali</h3>
+                </div>
+            </a>
+        </div>
+        <div class="campus-col">
+            <a href="festival 3.html">
+                <img src="festive images/janmashtami.png" alt="Janmashtami">
+                <div class="layer">
+                    <h3>Janmashtami</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<!------- campus ------>
+
+<section class="campus">
+    <h1>Social Traditions</h1>
+    <p>Uniting Hearts Through Age-Old Customs.</p>
+
+<div class="row">
+    <div class="campus-col">
+        <a href="festival 4.html">
+        <img src="festive images/london.png" alt="Raksha Bandhan">
+        <div class="layer">
+            <h3>Raksha Bandhan</h3>
+        </div>
+    </a>
+    </div>
+    <div class="campus-col">
+        <a href="festival 5.html">
+        <img src="festive images/new york.png" alt="Ganesh Chaturthi">
+        <div class="layer">
+            <h3>Ganesh Chaturthi</h3>
+        </div>
+    </a>
+    </div>
+    <div class="campus-col">
+        <a href="festival 6.html">
+        <img src="festive images/washington.png" alt="Dussehra">
+        <div class="layer">
+            <h3>Dussehra</h3>
+        </div>
+    </a>
+    </div>
+
+</div>
+
+</section>
+
+<!----- Facilities ----->
+
+<section class="campus">
+    <h1>Harvest Homecoming</h1>
+    <p>Harvesting Joy, Sowing Prosperity.</p>
+
+<div class="row">
+    <div class="campus-col">
+        <a href="festival 7.html">
+        <img src="festive images/onam.png" alt="Onam">
+        <div class="layer">
+            <h3>Onam</h3>
+        </div>
+    </a>
+    </div>
+    <div class="campus-col">
+        <a href="festival 8.html">
+        <img src="festive images/bihu.png" alt="Bihu">
+        <div class="layer">
+            <h3>Bihu</h3>
+        </div>
+    </a>
+    </div>
+    <div class="campus-col">
+        <a href="festival 9.html">
+        <img src="festive images/baisakhi.png" alt="Baisakshi">
+        <div class="layer">
+            <h3>Baisakhi</h3>
+        </div>
+    </a>
+    </div>
+
+</div>
+
+</section>
+
+ 
+<!----- Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Festive Footsteps, created by Ripudaman Tyagi for Vikas Tyagi, a student living abroad <br>offers simple, step-by-step guides to help those away from India celebrate and stay connected with Indian festivals.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Ripudaman Tyagi </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script type="text/javascript">
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
